@@ -49,6 +49,9 @@ blockquote{
 /*Make each team's image the background image for the list. Hint Check out the element > element 
 and :first-child / :last-child selectors. Remove the image from above the team's list.*/
 
+#teamRoster>li>img{
+	height: 0;
+}
 
 
 #teamRoster>li:first-child{
